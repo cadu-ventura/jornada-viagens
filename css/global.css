@@ -10,22 +10,19 @@
   --secondary-color: #b81515;
 
   --background-primary-color: #ffffff;
-  --backgroud-secondary-color: #ffffff;
-  --backgroud-tertiary-color: #000000;
-
-  --butoon-primary-color: #8f0101;
-  --button-secondary-color: #b81515;
+  --background-secondary-color: #ffffff;
+  --background-tertiary-color: #000000;
 
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
 
   --titles-weigth: 700;
   --text-weigth: 400;
-  --menu--text-weigth: 500;
+  --menu-text-weigth: 500;
 }
 
 h1 {
-  font-family: "Monteserrat";
+  font-family: "Montserrat";
   font-weight: var(--titles-weigth);
   color: var(--primary-color);
 }
@@ -44,4 +41,8 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
 }
